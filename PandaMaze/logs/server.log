@@ -1,0 +1,2269 @@
+2019.06.16 20:47:21.013 INFO  Server.Server - Server starter at ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5400]!
+2019.06.16 20:47:21.016 INFO  Server.Server - Server's Strategy: ServerStrategyGenerateMaze
+2019.06.16 20:47:21.016 INFO  Server.Server - Server is waiting for clients...
+2019.06.16 20:47:21.017 INFO  Server.Server - Finished handle client: Socket[addr=/10.0.0.1,port=60128,localport=5400]
+2019.06.16 20:47:21.018 INFO  Server.Server - Handling client with socket: Socket[addr=/10.0.0.1,port=60128,localport=5400]
+2019.06.16 20:47:21.026 ERROR Server.Server - IOException
+java.net.SocketException: Socket is closed
+	at java.net.Socket.getOutputStream(Socket.java:943) ~[?:1.8.0_202]
+	at Server.Server.ManageClient(Server.java:88) ~[PartB%20-%20Project%20%e2%80%93%20B.jar:?]
+	at Server.Server.lambda$runServer$1(Server.java:67) ~[PartB%20-%20Project%20%e2%80%93%20B.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_202]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_202]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_202]
+2019.06.16 20:47:22.017 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 20:47:23.018 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 20:47:24.020 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 20:47:25.020 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 20:47:26.021 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 20:47:27.022 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 20:47:28.023 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 20:47:29.025 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 20:47:30.026 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 20:47:31.027 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 20:47:32.029 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 20:47:33.030 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 20:47:34.031 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 20:47:35.032 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 20:47:36.034 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 20:47:37.035 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 20:47:38.036 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 20:47:38.122 INFO  Server.Server - Server starter at ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5401]!
+2019.06.16 20:47:38.122 INFO  Server.Server - Server's Strategy: ServerStrategySolveSearchProblem
+2019.06.16 20:47:38.122 INFO  Server.Server - Server is waiting for clients...
+2019.06.16 20:47:38.123 INFO  Server.Server - Finished handle client: Socket[addr=/10.0.0.1,port=60142,localport=5401]
+2019.06.16 20:47:38.123 INFO  Server.Server - Handling client with socket: Socket[addr=/10.0.0.1,port=60142,localport=5401]
+2019.06.16 20:47:38.137 ERROR Server.Server - IOException
+java.net.SocketException: Socket is closed
+	at java.net.Socket.getOutputStream(Socket.java:943) ~[?:1.8.0_202]
+	at Server.Server.ManageClient(Server.java:88) ~[PartB%20-%20Project%20%e2%80%93%20B.jar:?]
+	at Server.Server.lambda$runServer$1(Server.java:67) ~[PartB%20-%20Project%20%e2%80%93%20B.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_202]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_202]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_202]
+2019.06.16 20:47:39.038 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 20:47:39.124 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 20:47:40.039 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 20:47:40.125 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 20:47:41.040 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 20:47:41.126 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 20:47:42.041 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 20:47:42.127 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 20:47:43.042 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 20:47:43.128 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 20:47:44.043 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 20:47:44.129 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 20:47:45.043 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 20:47:45.129 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 20:47:46.044 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 20:47:46.130 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 20:47:47.044 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 20:47:47.130 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 20:47:48.045 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 20:47:48.131 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 20:47:48.252 INFO  Server.Server - Stopping server..
+2019.06.16 20:47:48.252 INFO  Server.Server - Stopping server..
+2019.06.16 20:47:49.046 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 20:47:49.132 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 21:20:13.094 INFO  Server.Server - Server starter at ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5400]!
+2019.06.16 21:20:13.097 INFO  Server.Server - Server's Strategy: ServerStrategyGenerateMaze
+2019.06.16 21:20:13.097 INFO  Server.Server - Server is waiting for clients...
+2019.06.16 21:20:13.594 INFO  Server.Server - Finished handle client: Socket[addr=/10.0.0.1,port=61876,localport=5400]
+2019.06.16 21:20:13.594 INFO  Server.Server - Handling client with socket: Socket[addr=/10.0.0.1,port=61876,localport=5400]
+2019.06.16 21:20:13.622 ERROR Server.Server - IOException
+java.net.SocketException: Socket is closed
+	at java.net.Socket.getOutputStream(Socket.java:943) ~[?:1.8.0_202]
+	at Server.Server.ManageClient(Server.java:88) ~[PartB%20-%20Project%20%e2%80%93%20B.jar:?]
+	at Server.Server.lambda$runServer$1(Server.java:67) ~[PartB%20-%20Project%20%e2%80%93%20B.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_202]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_202]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_202]
+2019.06.16 21:20:14.595 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 21:20:15.596 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 21:20:16.596 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 21:20:17.596 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 21:20:18.596 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 21:20:19.598 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 21:20:20.599 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 21:20:21.600 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 21:20:22.600 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 21:20:23.601 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 21:20:24.602 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 21:20:25.603 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 21:20:26.605 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 21:20:27.605 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 21:20:28.406 INFO  Server.Server - Server starter at ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5401]!
+2019.06.16 21:20:28.406 INFO  Server.Server - Server's Strategy: ServerStrategySolveSearchProblem
+2019.06.16 21:20:28.407 INFO  Server.Server - Server is waiting for clients...
+2019.06.16 21:20:28.407 INFO  Server.Server - Finished handle client: Socket[addr=/10.0.0.1,port=61887,localport=5401]
+2019.06.16 21:20:28.407 INFO  Server.Server - Handling client with socket: Socket[addr=/10.0.0.1,port=61887,localport=5401]
+2019.06.16 21:20:28.421 ERROR Server.Server - IOException
+java.net.SocketException: Socket is closed
+	at java.net.Socket.getOutputStream(Socket.java:943) ~[?:1.8.0_202]
+	at Server.Server.ManageClient(Server.java:88) ~[PartB%20-%20Project%20%e2%80%93%20B.jar:?]
+	at Server.Server.lambda$runServer$1(Server.java:67) ~[PartB%20-%20Project%20%e2%80%93%20B.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_202]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_202]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_202]
+2019.06.16 21:20:28.605 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 21:20:29.408 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 21:20:29.605 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 21:20:30.408 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 21:20:30.606 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 21:20:31.408 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 21:20:31.608 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 21:20:32.409 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 21:20:32.610 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 21:20:33.410 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 21:20:33.610 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 21:20:34.412 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 21:20:34.612 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 21:20:35.413 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 21:20:35.613 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 21:20:36.414 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 21:20:36.614 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 21:20:37.415 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 21:20:37.615 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 21:20:38.416 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 21:20:38.616 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 21:20:39.418 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 21:20:39.618 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 21:20:40.419 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 21:20:40.620 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 21:20:41.419 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 21:20:41.621 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 21:20:42.420 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 21:20:42.623 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 21:20:43.420 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 21:20:43.623 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 21:20:44.420 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 21:20:44.624 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 21:20:45.421 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 21:20:45.625 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 21:20:46.422 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 21:20:46.626 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 21:20:47.423 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 21:20:47.628 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 21:20:48.423 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 21:20:48.628 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 21:20:49.425 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 21:20:49.629 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 21:20:50.426 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 21:20:50.629 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 21:20:51.426 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 21:20:51.630 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 21:20:52.427 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 21:20:52.631 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 21:20:53.428 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 21:20:53.632 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 21:20:54.429 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 21:20:54.632 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 21:20:55.429 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 21:20:55.633 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 21:20:56.429 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 21:20:56.633 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 21:20:57.429 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 21:20:57.633 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 21:20:58.430 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 21:20:58.634 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 21:20:59.430 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 21:20:59.634 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 21:21:00.431 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 21:21:00.635 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 21:21:01.431 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 21:21:01.635 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 21:21:02.431 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 21:21:02.635 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 21:21:03.432 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 21:21:03.636 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 21:21:04.433 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 21:21:04.636 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 21:21:05.433 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 21:21:05.636 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 21:21:06.434 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 21:21:06.637 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 21:21:07.435 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 21:21:07.638 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 21:21:08.436 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 21:21:08.639 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 21:21:09.436 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 21:21:09.639 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 21:21:10.436 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 21:21:10.639 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 21:21:11.438 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 21:21:11.640 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 21:21:12.438 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 21:21:12.641 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 21:21:13.440 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 21:21:13.641 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 21:21:14.440 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 21:21:14.642 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 21:21:15.441 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 21:21:15.643 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 21:21:16.442 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 21:21:16.644 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 21:21:17.443 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 21:21:17.646 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 21:21:18.277 INFO  Server.Server - Stopping server..
+2019.06.16 21:21:18.279 INFO  Server.Server - Finished handle client: Socket[addr=/10.0.0.1,port=61918,localport=5400]
+2019.06.16 21:21:18.280 INFO  Server.Server - Handling client with socket: Socket[addr=/10.0.0.1,port=61918,localport=5400]
+2019.06.16 21:21:18.279 ERROR Server.Server - IOException
+java.net.BindException: Address already in use: JVM_Bind
+	at java.net.DualStackPlainSocketImpl.bind0(Native Method) ~[?:1.8.0_202]
+	at java.net.DualStackPlainSocketImpl.socketBind(DualStackPlainSocketImpl.java:106) ~[?:1.8.0_202]
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387) ~[?:1.8.0_202]
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:190) ~[?:1.8.0_202]
+	at java.net.ServerSocket.bind(ServerSocket.java:375) ~[?:1.8.0_202]
+	at java.net.ServerSocket.<init>(ServerSocket.java:237) ~[?:1.8.0_202]
+	at java.net.ServerSocket.<init>(ServerSocket.java:128) ~[?:1.8.0_202]
+	at Server.Server.runServer(Server.java:59) ~[PartB%20-%20Project%20%e2%80%93%20B.jar:?]
+	at Server.Server.lambda$start$0(Server.java:41) ~[PartB%20-%20Project%20%e2%80%93%20B.jar:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_202]
+2019.06.16 21:21:18.281 ERROR Server.Server - IOException
+java.net.SocketException: Socket is closed
+	at java.net.Socket.getOutputStream(Socket.java:943) ~[?:1.8.0_202]
+	at Server.Server.ManageClient(Server.java:88) ~[PartB%20-%20Project%20%e2%80%93%20B.jar:?]
+	at Server.Server.lambda$runServer$1(Server.java:67) ~[PartB%20-%20Project%20%e2%80%93%20B.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_202]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_202]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_202]
+2019.06.16 21:21:18.444 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 21:21:19.444 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 21:21:20.445 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 21:21:21.446 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 21:21:22.446 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 21:21:23.447 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 21:21:24.448 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 21:21:25.448 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 21:21:26.449 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 21:21:26.871 INFO  Server.Server - Stopping server..
+2019.06.16 21:21:26.871 INFO  Server.Server - Stopping server..
+2019.06.16 21:21:27.450 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:07:19.409 INFO  Server.Server - Server starter at ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5400]!
+2019.06.16 22:07:19.413 INFO  Server.Server - Server's Strategy: ServerStrategyGenerateMaze
+2019.06.16 22:07:19.413 INFO  Server.Server - Server is waiting for clients...
+2019.06.16 22:07:19.657 INFO  Server.Server - Finished handle client: Socket[addr=/10.0.0.1,port=51393,localport=5400]
+2019.06.16 22:07:19.657 INFO  Server.Server - Handling client with socket: Socket[addr=/10.0.0.1,port=51393,localport=5400]
+2019.06.16 22:07:19.673 ERROR Server.Server - IOException
+java.net.SocketException: Socket is closed
+	at java.net.Socket.getOutputStream(Unknown Source) ~[?:1.8.0_202]
+	at Server.Server.ManageClient(Server.java:88) ~[PandaMaze.jar:?]
+	at Server.Server.lambda$runServer$1(Server.java:67) ~[PandaMaze.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_202]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_202]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_202]
+2019.06.16 22:07:20.658 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:07:21.658 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:07:22.659 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:07:23.660 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:07:24.665 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:07:25.666 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:07:26.667 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:07:27.668 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:07:28.670 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:07:29.670 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:07:30.672 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:07:31.672 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:07:32.674 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:07:33.676 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:07:34.677 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:07:35.678 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:07:36.679 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:07:37.681 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:07:38.682 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:07:39.684 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:07:40.685 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:07:41.687 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:07:42.688 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:07:43.688 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:07:44.690 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:07:45.690 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:07:46.692 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:07:47.693 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:07:48.695 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:07:49.696 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:07:50.697 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:07:51.698 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:07:52.700 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:07:53.702 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:07:54.702 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:07:55.703 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:07:56.703 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:07:57.703 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:07:58.704 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:07:59.704 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:08:00.705 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:08:01.707 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:08:02.709 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:08:03.710 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:08:04.712 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:08:05.712 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:08:06.713 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:08:07.714 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:08:08.715 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:08:09.716 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:08:10.718 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:08:11.718 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:08:12.720 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:08:13.721 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:08:14.505 INFO  Server.Server - Server starter at ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5401]!
+2019.06.16 22:08:14.506 INFO  Server.Server - Server's Strategy: ServerStrategySolveSearchProblem
+2019.06.16 22:08:14.506 INFO  Server.Server - Server is waiting for clients...
+2019.06.16 22:08:14.506 INFO  Server.Server - Finished handle client: Socket[addr=/10.0.0.1,port=51428,localport=5401]
+2019.06.16 22:08:14.507 INFO  Server.Server - Handling client with socket: Socket[addr=/10.0.0.1,port=51428,localport=5401]
+2019.06.16 22:08:14.522 ERROR Server.Server - IOException
+java.net.SocketException: Socket is closed
+	at java.net.Socket.getOutputStream(Unknown Source) ~[?:1.8.0_202]
+	at Server.Server.ManageClient(Server.java:88) ~[PandaMaze.jar:?]
+	at Server.Server.lambda$runServer$1(Server.java:67) ~[PandaMaze.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_202]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_202]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_202]
+2019.06.16 22:08:14.721 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:08:15.507 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:08:15.721 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:08:16.507 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:08:16.722 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:08:17.509 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:08:17.724 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:08:18.511 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:08:18.725 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:08:19.511 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:08:19.727 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:08:20.513 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:08:20.728 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:08:21.514 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:08:21.728 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:08:22.514 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:08:22.729 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:08:23.515 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:08:23.730 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:08:24.517 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:08:24.732 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:08:25.519 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:08:25.734 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:08:26.520 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:08:26.735 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:08:27.522 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:08:27.737 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:08:28.522 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:08:28.738 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:08:29.524 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:08:29.739 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:08:30.525 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:08:30.741 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:08:31.526 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:08:31.742 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:08:32.526 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:08:32.743 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:08:33.528 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:08:33.743 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:08:34.528 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:08:34.743 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:08:35.530 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:08:35.744 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:08:36.531 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:08:36.745 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:08:37.531 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:08:37.745 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:08:38.532 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:08:38.745 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:08:39.532 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:08:39.745 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:08:40.533 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:08:40.746 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:08:41.533 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:08:41.747 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:08:42.533 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:08:42.747 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:08:43.533 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:08:43.748 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:08:44.534 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:08:44.748 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:08:45.536 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:08:45.750 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:08:46.536 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:08:46.750 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:08:47.536 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:08:47.751 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:08:48.536 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:08:48.752 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:08:49.537 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:08:49.754 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:08:50.599 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:08:50.754 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:08:51.600 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:08:51.756 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:08:52.601 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:08:52.756 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:08:53.603 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:08:53.758 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:08:54.604 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:08:54.758 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:08:55.606 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:08:55.760 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:08:56.607 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:08:56.760 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:08:57.608 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:08:57.761 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:08:58.609 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:08:58.762 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:08:59.610 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:08:59.764 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:09:00.611 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:09:00.765 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:09:01.612 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:09:01.766 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:09:02.613 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:09:02.766 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:09:03.614 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:09:03.768 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:09:04.616 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:09:04.770 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:09:05.617 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:09:05.772 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:09:06.617 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:09:06.772 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:09:07.618 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:09:07.773 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:09:08.619 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:09:08.774 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:09:09.620 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:09:09.774 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:09:10.620 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:09:10.775 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:09:11.621 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:09:11.775 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:09:11.887 INFO  Server.Server - Stopping server..
+2019.06.16 22:09:11.887 INFO  Server.Server - Stopping server..
+2019.06.16 22:09:12.622 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:09:12.777 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:09:17.153 INFO  Server.Server - Server starter at ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5400]!
+2019.06.16 22:09:17.156 INFO  Server.Server - Server's Strategy: ServerStrategyGenerateMaze
+2019.06.16 22:09:17.156 INFO  Server.Server - Server is waiting for clients...
+2019.06.16 22:09:17.655 INFO  Server.Server - Finished handle client: Socket[addr=/10.0.0.1,port=51471,localport=5400]
+2019.06.16 22:09:17.656 INFO  Server.Server - Handling client with socket: Socket[addr=/10.0.0.1,port=51471,localport=5400]
+2019.06.16 22:09:17.671 ERROR Server.Server - IOException
+java.net.SocketException: Socket is closed
+	at java.net.Socket.getOutputStream(Unknown Source) ~[?:1.8.0_202]
+	at Server.Server.ManageClient(Server.java:88) ~[PandaMaze.jar:?]
+	at Server.Server.lambda$runServer$1(Server.java:67) ~[PandaMaze.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_202]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_202]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_202]
+2019.06.16 22:09:18.655 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:09:19.657 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:09:20.657 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:09:21.659 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:09:22.659 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:09:23.660 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:09:24.660 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:09:25.660 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:09:26.661 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:09:27.662 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:09:28.662 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:09:29.663 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:09:30.665 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:09:31.665 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:09:32.666 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:09:33.667 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:09:34.669 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:09:35.670 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:09:36.672 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:09:37.673 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:09:38.674 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:09:39.674 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:09:40.674 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:09:41.675 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:09:42.677 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:09:43.678 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:09:44.679 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:09:45.681 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:09:46.682 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:09:47.683 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:09:48.684 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:09:49.685 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:09:50.687 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:09:51.688 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:09:52.689 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:09:53.690 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:09:54.691 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:09:55.693 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:09:56.693 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:09:57.694 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:09:58.695 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:09:59.696 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:10:00.697 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:10:01.697 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:10:02.699 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:10:03.700 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:10:04.702 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:10:05.703 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:10:06.704 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:10:07.704 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:10:08.706 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:10:09.706 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:10:10.708 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:10:11.709 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:10:12.710 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:10:13.711 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:10:14.712 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:10:15.712 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:10:16.714 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:10:17.715 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:10:18.716 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:10:19.717 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:10:20.719 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:10:21.719 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:10:22.721 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:10:23.722 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:10:24.723 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:10:25.724 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:10:26.725 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:10:27.726 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:10:28.727 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:10:29.728 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:10:30.730 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:10:31.731 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:10:32.731 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:10:33.731 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:10:34.731 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:10:35.731 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:10:36.733 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:10:37.733 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:10:38.735 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:10:39.735 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:10:40.735 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:10:41.736 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:10:42.737 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:10:43.738 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:10:44.739 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:10:45.741 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:10:46.742 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:10:47.743 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:10:48.744 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:10:49.746 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:10:50.747 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:10:51.749 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:10:52.750 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:10:53.751 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:10:54.753 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:10:55.755 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:10:56.756 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:10:57.758 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:10:58.760 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:10:59.764 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:11:00.766 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:11:01.766 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:11:02.767 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:11:03.768 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:11:04.768 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:11:05.769 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:11:06.770 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:11:07.770 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:11:08.771 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:11:09.771 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:11:10.772 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:11:11.772 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:11:12.774 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:11:13.775 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:11:14.777 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:11:15.778 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:11:16.779 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:11:17.780 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:11:18.781 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:11:19.783 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:11:20.785 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:11:21.785 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:11:22.786 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:11:23.787 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:11:24.868 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:11:25.869 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:11:26.870 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:11:27.870 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:11:28.871 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:11:29.872 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:11:30.873 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:11:31.873 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:11:32.875 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:11:33.875 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:11:34.876 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:11:35.877 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:11:36.878 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:11:37.879 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:11:38.880 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:11:39.881 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:11:40.883 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:11:41.884 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:11:42.885 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:11:43.886 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:11:44.888 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:11:45.890 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:11:46.890 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:11:47.891 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:11:48.891 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:11:49.893 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:11:50.894 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:11:51.895 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:11:52.896 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:11:53.897 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:11:54.897 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:11:55.898 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:11:56.900 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:11:57.901 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:11:58.902 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:11:59.903 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:12:00.903 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:12:01.903 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:12:02.905 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:12:03.905 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:12:04.906 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:12:05.906 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:12:06.907 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:12:07.908 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:12:08.908 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:12:09.910 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:12:10.911 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:12:11.911 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:12:12.912 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:12:13.912 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:12:14.913 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:12:15.913 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:12:16.913 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:12:17.914 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:12:18.915 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:12:19.915 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:12:20.917 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:12:21.918 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:12:22.919 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:12:23.919 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:12:24.920 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:12:25.922 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:12:26.922 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:12:27.922 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:12:28.923 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:12:29.924 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:12:30.925 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:12:31.925 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:12:32.925 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:12:33.926 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:12:34.926 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:12:35.927 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:12:36.929 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:12:37.929 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:12:38.930 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:12:39.931 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:12:40.931 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:12:41.933 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:12:42.933 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:12:43.934 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:12:44.935 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:12:45.936 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:12:46.936 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:12:47.937 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:12:48.938 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:12:49.938 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:12:50.938 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:12:51.939 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:12:52.939 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:12:53.940 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:12:54.940 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:12:55.941 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:12:56.941 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:12:57.942 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:12:58.943 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:12:59.943 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:13:00.944 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:13:01.945 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:13:02.945 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:13:03.946 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:13:04.947 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:13:05.949 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:13:06.951 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:13:07.952 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:13:08.954 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:13:09.954 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:13:10.955 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:13:11.956 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:13:12.957 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:13:13.957 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:13:14.957 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:13:15.958 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:13:16.958 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:13:17.959 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:13:18.959 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:13:19.960 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:13:20.963 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:13:21.964 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:13:22.965 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:13:23.970 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:13:24.970 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:13:25.971 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:13:26.972 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:13:27.972 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:13:28.979 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:13:29.982 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:13:30.984 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:13:31.988 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:13:32.989 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:13:33.990 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:13:34.993 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:13:35.994 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:13:36.994 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:13:37.995 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:13:38.995 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:13:39.996 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:13:40.997 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:13:41.997 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:13:42.998 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:13:43.998 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:13:44.998 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:13:45.999 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:13:46.999 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:13:48.000 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:13:49.000 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:13:50.001 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:13:51.003 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:13:52.003 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:13:53.004 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:13:54.004 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:13:55.004 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:13:56.005 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:13:57.005 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:13:58.005 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:13:59.006 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:14:00.007 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:14:01.008 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:14:02.008 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:14:03.009 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:14:04.009 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:14:05.010 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:14:06.010 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:14:07.010 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:14:08.011 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:14:09.012 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:14:10.013 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:14:11.014 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:14:12.014 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:14:13.015 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:14:14.015 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:14:15.015 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:14:16.016 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:14:17.016 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:14:18.017 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:14:19.018 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:14:20.020 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:14:21.020 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:14:22.021 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:14:23.021 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:14:24.022 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:14:25.022 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:14:26.023 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:14:27.023 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:14:28.023 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:14:29.024 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:14:30.025 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:14:31.026 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:14:32.026 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:14:33.027 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:14:34.029 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:14:35.029 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:14:36.030 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:14:37.030 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:14:38.031 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:14:39.031 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:14:40.032 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:14:41.032 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:14:42.032 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:14:43.033 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:14:44.033 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:14:45.033 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:14:46.034 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:14:47.035 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:14:48.035 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:14:49.036 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:14:50.036 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:14:51.036 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:14:52.037 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:14:53.038 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:14:54.038 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:14:55.038 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:14:56.039 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:14:57.039 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:14:58.039 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:14:59.039 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:15:00.039 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:15:01.040 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:15:02.040 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:15:03.041 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:15:04.042 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:15:05.042 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:15:06.043 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:15:07.043 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:15:08.043 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:15:09.043 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:15:10.044 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:15:11.044 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:15:12.045 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:15:13.045 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:15:14.046 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:15:15.047 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:15:16.049 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:15:17.049 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:15:18.050 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:15:19.050 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:15:20.051 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:15:21.052 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:15:22.052 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:15:23.052 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:15:24.053 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:15:25.061 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:15:26.062 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:15:27.062 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:15:28.063 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:15:29.063 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:15:30.063 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:15:31.063 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:15:32.063 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:15:33.064 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:15:34.064 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:15:35.064 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:15:36.065 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:15:37.066 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:15:38.066 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:15:39.068 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:15:40.069 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:15:41.117 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:15:42.118 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:15:43.119 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:15:44.119 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:15:45.120 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:15:46.120 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:15:47.121 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:15:48.121 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:15:49.121 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:15:50.122 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:15:51.123 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:15:52.123 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:15:53.123 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:15:54.124 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:15:55.124 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:15:56.125 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:15:57.125 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:15:58.125 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:15:59.126 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:16:00.127 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:16:01.128 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:16:02.129 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:16:03.129 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:16:04.129 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:16:05.129 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:16:06.129 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:16:07.130 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:16:08.130 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:16:09.131 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:16:10.131 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:16:11.132 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:16:12.132 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:16:13.132 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:16:14.133 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:16:15.133 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:16:16.134 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:16:17.135 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:16:18.135 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:16:19.137 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:16:20.138 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:16:21.152 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:16:22.153 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:16:23.154 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:16:24.154 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:16:25.155 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:16:26.156 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:16:27.157 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:16:28.158 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:16:29.158 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:16:30.159 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:16:31.159 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:16:32.160 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:16:33.160 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:16:34.160 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:16:35.161 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:16:36.161 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:16:37.162 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:16:38.162 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:16:39.163 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:16:40.163 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:16:41.164 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:16:42.165 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:16:43.165 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:16:44.167 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:16:45.167 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:16:46.168 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:16:47.169 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:16:48.169 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:16:49.170 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:16:50.170 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:16:51.171 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:16:52.171 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:16:53.172 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:16:54.172 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:16:55.173 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:16:56.174 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:16:57.174 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:16:58.174 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:16:59.175 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:17:00.175 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:17:01.175 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:17:02.176 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:17:03.177 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:17:04.178 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:17:05.178 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:17:06.179 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:17:07.179 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:17:08.180 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:17:09.180 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:17:10.181 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:17:11.181 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:17:12.182 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:17:13.183 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:17:14.183 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:17:15.183 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:17:16.184 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:17:17.184 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:17:18.185 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:17:19.186 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:17:20.187 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:17:21.187 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:17:22.188 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:17:23.188 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:17:24.189 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:17:25.190 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:17:26.191 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:17:27.191 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:17:28.192 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:17:29.192 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:17:30.192 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:17:31.192 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:17:32.193 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:17:33.194 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:17:34.194 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:17:35.194 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:17:36.194 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:17:37.195 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:17:38.195 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:17:39.196 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:17:40.196 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:17:41.196 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:17:42.197 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:17:43.198 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:17:44.198 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:17:45.200 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:17:46.201 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:17:47.202 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:17:48.202 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:17:49.203 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:17:50.203 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:17:51.204 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:17:52.204 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:17:53.204 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:17:54.205 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:17:55.205 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:17:56.205 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:17:57.206 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:17:58.207 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:17:59.207 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:18:00.207 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:18:01.207 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:18:02.207 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:18:03.208 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:18:04.208 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:18:05.208 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:18:06.209 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:18:07.210 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:18:08.210 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:18:09.210 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:18:10.211 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:18:11.212 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:18:12.213 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:18:13.213 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:18:14.213 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:18:15.214 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:18:16.214 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:18:17.214 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:18:18.215 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:18:19.216 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:18:20.217 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:18:21.217 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:18:22.217 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:18:23.218 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:18:24.218 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:18:25.219 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:18:26.219 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:18:27.220 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:18:28.221 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:18:29.222 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:18:30.222 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:18:31.223 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:18:32.223 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:18:33.224 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:18:34.224 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:18:35.225 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:18:35.330 INFO  Server.Server - Stopping server..
+2019.06.16 22:18:36.225 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:18:57.608 INFO  Server.Server - Server starter at ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5400]!
+2019.06.16 22:18:57.610 INFO  Server.Server - Server's Strategy: ServerStrategyGenerateMaze
+2019.06.16 22:18:57.610 INFO  Server.Server - Server is waiting for clients...
+2019.06.16 22:18:58.108 INFO  Server.Server - Finished handle client: Socket[addr=/10.0.0.1,port=51723,localport=5400]
+2019.06.16 22:18:58.109 INFO  Server.Server - Handling client with socket: Socket[addr=/10.0.0.1,port=51723,localport=5400]
+2019.06.16 22:18:58.143 ERROR Server.Server - IOException
+java.net.SocketException: Socket is closed
+	at java.net.Socket.getOutputStream(Unknown Source) ~[?:1.8.0_202]
+	at Server.Server.ManageClient(Server.java:88) ~[PandaMaze.jar:?]
+	at Server.Server.lambda$runServer$1(Server.java:67) ~[PandaMaze.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_202]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_202]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_202]
+2019.06.16 22:18:59.110 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:19:00.111 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:19:01.111 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:19:02.111 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:19:03.112 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:19:04.113 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:19:05.113 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:19:06.115 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:19:07.115 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:19:07.699 INFO  Server.Server - Server starter at ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5401]!
+2019.06.16 22:19:07.699 INFO  Server.Server - Server's Strategy: ServerStrategySolveSearchProblem
+2019.06.16 22:19:07.699 INFO  Server.Server - Server is waiting for clients...
+2019.06.16 22:19:07.699 INFO  Server.Server - Finished handle client: Socket[addr=/10.0.0.1,port=51744,localport=5401]
+2019.06.16 22:19:07.700 INFO  Server.Server - Handling client with socket: Socket[addr=/10.0.0.1,port=51744,localport=5401]
+2019.06.16 22:19:07.712 ERROR Server.Server - IOException
+java.net.SocketException: Socket is closed
+	at java.net.Socket.getOutputStream(Unknown Source) ~[?:1.8.0_202]
+	at Server.Server.ManageClient(Server.java:88) ~[PandaMaze.jar:?]
+	at Server.Server.lambda$runServer$1(Server.java:67) ~[PandaMaze.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_202]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_202]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_202]
+2019.06.16 22:19:08.115 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:19:08.701 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:19:09.116 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:19:09.701 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:19:10.116 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:19:10.703 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:19:11.085 INFO  Server.Server - Stopping server..
+2019.06.16 22:19:11.118 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:19:11.703 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:19:12.119 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:19:13.120 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:19:14.121 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:19:15.121 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:19:16.122 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:19:17.124 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:19:18.125 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:19:19.125 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:19:20.127 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:19:21.128 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:19:22.129 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:19:23.130 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:19:24.131 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:19:25.133 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:19:26.135 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:19:27.135 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:19:28.137 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:19:29.138 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:19:30.139 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:19:31.141 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:19:32.141 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:19:33.142 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:19:34.142 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:19:35.143 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:19:36.144 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:19:37.144 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:19:38.146 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:19:39.147 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:19:40.147 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:19:41.148 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:19:42.150 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:19:43.185 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:19:44.186 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:19:45.187 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:19:46.187 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:19:47.188 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:19:48.189 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:19:49.189 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:19:50.190 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:19:51.191 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:19:52.191 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:19:53.192 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:19:54.194 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:19:55.195 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:19:56.197 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:19:57.198 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:19:58.199 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:19:59.201 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:20:00.202 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:20:01.203 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:20:02.208 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:20:03.211 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:20:04.211 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:20:05.212 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:20:06.213 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:20:07.216 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:20:08.216 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:20:09.217 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:20:10.218 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:20:11.222 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:20:12.224 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:20:13.225 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:20:14.227 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:20:15.227 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:20:16.227 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:20:17.228 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:20:18.228 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:20:19.229 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:20:20.231 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:20:21.232 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:20:22.232 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:20:23.232 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:20:24.233 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:20:25.234 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:20:26.234 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:20:27.235 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:20:28.236 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:20:29.238 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:20:30.239 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:20:31.240 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:20:32.241 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:20:33.242 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:20:34.244 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:20:35.244 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:20:36.245 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:20:37.247 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:20:38.248 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:20:39.248 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:20:40.250 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:20:41.250 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:20:42.252 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:20:43.253 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:20:44.254 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:20:45.255 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:20:46.256 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:20:47.258 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:20:48.259 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:20:49.261 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:20:50.262 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:20:51.262 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:20:52.263 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:20:53.264 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:20:54.266 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:20:55.268 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:20:56.268 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:20:57.269 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:20:58.269 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:20:59.379 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:21:00.380 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:21:01.380 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:21:02.380 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:21:03.382 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:21:04.382 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:21:05.383 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:21:06.384 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:21:07.385 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:21:08.386 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:21:09.387 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:21:10.387 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:21:11.388 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:21:12.389 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:21:13.390 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:21:14.391 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:21:15.393 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:21:16.393 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:21:17.395 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:21:18.397 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:21:19.397 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:21:20.398 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:21:21.400 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:21:22.401 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:21:23.403 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:21:24.403 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:21:25.404 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:21:26.405 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:21:27.407 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:21:28.408 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:21:29.408 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:21:30.408 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:21:31.409 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:21:32.410 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:21:33.411 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:21:34.412 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:21:35.412 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:21:36.413 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:21:37.413 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:21:38.414 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:21:39.414 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:21:40.416 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:21:41.417 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:21:42.418 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:21:43.418 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:21:44.419 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:21:45.420 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:21:46.420 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:21:47.421 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:21:48.426 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:21:49.426 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:21:50.427 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:21:51.428 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:21:52.429 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:21:53.429 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:21:54.429 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:21:55.430 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:21:56.432 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:21:57.432 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:21:58.433 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:21:59.433 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:22:00.434 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:22:01.435 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:22:02.436 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:22:03.436 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:22:04.437 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:22:05.438 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:22:06.438 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:22:07.439 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:22:08.439 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:22:09.440 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:22:10.440 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:22:11.440 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:22:12.441 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:22:13.441 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:22:14.442 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:22:15.443 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:22:16.443 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:22:17.444 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:22:18.330 INFO  Server.Server - Stopping server..
+2019.06.16 22:22:18.330 INFO  Server.Server - Stopping server..
+2019.06.16 22:22:18.444 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:23:23.497 INFO  Server.Server - Server starter at ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5400]!
+2019.06.16 22:23:23.499 INFO  Server.Server - Server's Strategy: ServerStrategyGenerateMaze
+2019.06.16 22:23:23.500 INFO  Server.Server - Server is waiting for clients...
+2019.06.16 22:23:23.996 INFO  Server.Server - Finished handle client: Socket[addr=/10.0.0.1,port=52014,localport=5400]
+2019.06.16 22:23:23.996 INFO  Server.Server - Handling client with socket: Socket[addr=/10.0.0.1,port=52014,localport=5400]
+2019.06.16 22:23:24.008 ERROR Server.Server - IOException
+java.net.SocketException: Socket is closed
+	at java.net.Socket.getOutputStream(Socket.java:943) ~[?:1.8.0_202]
+	at Server.Server.ManageClient(Server.java:88) ~[PartB%20-%20Project%20%e2%80%93%20B.jar:?]
+	at Server.Server.lambda$runServer$1(Server.java:67) ~[PartB%20-%20Project%20%e2%80%93%20B.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_202]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_202]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_202]
+2019.06.16 22:23:24.997 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:23:25.997 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:23:26.999 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:23:28.000 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:23:29.001 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:23:30.001 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:23:31.001 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:23:32.002 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:23:33.004 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:23:34.005 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:23:35.006 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:23:35.151 INFO  Server.Server - Server starter at ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5401]!
+2019.06.16 22:23:35.151 INFO  Server.Server - Server's Strategy: ServerStrategySolveSearchProblem
+2019.06.16 22:23:35.151 INFO  Server.Server - Server is waiting for clients...
+2019.06.16 22:23:35.152 INFO  Server.Server - Finished handle client: Socket[addr=/10.0.0.1,port=52025,localport=5401]
+2019.06.16 22:23:35.152 INFO  Server.Server - Handling client with socket: Socket[addr=/10.0.0.1,port=52025,localport=5401]
+2019.06.16 22:23:35.164 ERROR Server.Server - IOException
+java.net.SocketException: Socket is closed
+	at java.net.Socket.getOutputStream(Socket.java:943) ~[?:1.8.0_202]
+	at Server.Server.ManageClient(Server.java:88) ~[PartB%20-%20Project%20%e2%80%93%20B.jar:?]
+	at Server.Server.lambda$runServer$1(Server.java:67) ~[PartB%20-%20Project%20%e2%80%93%20B.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_202]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_202]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_202]
+2019.06.16 22:23:36.008 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:23:36.153 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:23:37.009 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:23:37.154 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:23:38.010 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:23:38.023 INFO  Server.Server - Stopping server..
+2019.06.16 22:23:38.025 INFO  Server.Server - Finished handle client: Socket[addr=/10.0.0.1,port=52027,localport=5400]
+2019.06.16 22:23:38.025 ERROR Server.Server - IOException
+java.net.BindException: Address already in use: JVM_Bind
+	at java.net.DualStackPlainSocketImpl.bind0(Native Method) ~[?:1.8.0_202]
+	at java.net.DualStackPlainSocketImpl.socketBind(DualStackPlainSocketImpl.java:106) ~[?:1.8.0_202]
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387) ~[?:1.8.0_202]
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:190) ~[?:1.8.0_202]
+	at java.net.ServerSocket.bind(ServerSocket.java:375) ~[?:1.8.0_202]
+	at java.net.ServerSocket.<init>(ServerSocket.java:237) ~[?:1.8.0_202]
+	at java.net.ServerSocket.<init>(ServerSocket.java:128) ~[?:1.8.0_202]
+	at Server.Server.runServer(Server.java:59) ~[PartB%20-%20Project%20%e2%80%93%20B.jar:?]
+	at Server.Server.lambda$start$0(Server.java:41) ~[PartB%20-%20Project%20%e2%80%93%20B.jar:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_202]
+2019.06.16 22:23:38.025 INFO  Server.Server - Handling client with socket: Socket[addr=/10.0.0.1,port=52027,localport=5400]
+2019.06.16 22:23:38.026 ERROR Server.Server - IOException
+java.net.SocketException: Socket is closed
+	at java.net.Socket.getOutputStream(Socket.java:943) ~[?:1.8.0_202]
+	at Server.Server.ManageClient(Server.java:88) ~[PartB%20-%20Project%20%e2%80%93%20B.jar:?]
+	at Server.Server.lambda$runServer$1(Server.java:67) ~[PartB%20-%20Project%20%e2%80%93%20B.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_202]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_202]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_202]
+2019.06.16 22:23:38.155 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:23:39.156 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:23:39.737 INFO  Server.Server - Finished handle client: Socket[addr=/10.0.0.1,port=52029,localport=5401]
+2019.06.16 22:23:39.737 ERROR Server.Server - IOException
+java.net.BindException: Address already in use: JVM_Bind
+	at java.net.DualStackPlainSocketImpl.bind0(Native Method) ~[?:1.8.0_202]
+	at java.net.DualStackPlainSocketImpl.socketBind(DualStackPlainSocketImpl.java:106) ~[?:1.8.0_202]
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387) ~[?:1.8.0_202]
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:190) ~[?:1.8.0_202]
+	at java.net.ServerSocket.bind(ServerSocket.java:375) ~[?:1.8.0_202]
+	at java.net.ServerSocket.<init>(ServerSocket.java:237) ~[?:1.8.0_202]
+	at java.net.ServerSocket.<init>(ServerSocket.java:128) ~[?:1.8.0_202]
+	at Server.Server.runServer(Server.java:59) ~[PartB%20-%20Project%20%e2%80%93%20B.jar:?]
+	at Server.Server.lambda$start$0(Server.java:41) ~[PartB%20-%20Project%20%e2%80%93%20B.jar:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_202]
+2019.06.16 22:23:39.739 INFO  Server.Server - Handling client with socket: Socket[addr=/10.0.0.1,port=52029,localport=5401]
+2019.06.16 22:23:39.749 ERROR Server.Server - IOException
+java.net.SocketException: Socket is closed
+	at java.net.Socket.getOutputStream(Socket.java:943) ~[?:1.8.0_202]
+	at Server.Server.ManageClient(Server.java:88) ~[PartB%20-%20Project%20%e2%80%93%20B.jar:?]
+	at Server.Server.lambda$runServer$1(Server.java:67) ~[PartB%20-%20Project%20%e2%80%93%20B.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_202]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_202]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_202]
+2019.06.16 22:23:40.738 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:23:41.740 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:23:42.742 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:23:43.413 INFO  Server.Server - Stopping server..
+2019.06.16 22:23:43.413 INFO  Server.Server - Stopping server..
+2019.06.16 22:23:43.742 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:23:44.743 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:23:45.744 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:23:46.745 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:23:47.745 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:23:48.745 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:23:49.747 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:23:50.747 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:24:09.988 INFO  Server.Server - Server starter at ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5400]!
+2019.06.16 22:24:09.990 INFO  Server.Server - Server's Strategy: ServerStrategyGenerateMaze
+2019.06.16 22:24:09.990 INFO  Server.Server - Server is waiting for clients...
+2019.06.16 22:24:10.492 INFO  Server.Server - Finished handle client: Socket[addr=/10.0.0.1,port=52049,localport=5400]
+2019.06.16 22:24:10.492 INFO  Server.Server - Handling client with socket: Socket[addr=/10.0.0.1,port=52049,localport=5400]
+2019.06.16 22:24:10.511 ERROR Server.Server - IOException
+java.net.SocketException: Socket is closed
+	at java.net.Socket.getOutputStream(Unknown Source) ~[?:1.8.0_202]
+	at Server.Server.ManageClient(Server.java:88) ~[PandaMaze.jar:?]
+	at Server.Server.lambda$runServer$1(Server.java:67) ~[PandaMaze.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_202]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_202]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_202]
+2019.06.16 22:24:11.493 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:24:12.495 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:24:13.496 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:24:14.497 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:24:15.499 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:24:16.500 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:24:17.500 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:24:18.502 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:24:19.503 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:24:20.505 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:24:21.506 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:24:22.508 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:24:23.509 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:24:24.509 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:24:25.285 INFO  Server.Server - Stopping server..
+2019.06.16 22:24:25.509 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:44:35.381 INFO  Server.Server - Server starter at ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5400]!
+2019.06.16 22:44:35.384 INFO  Server.Server - Server's Strategy: ServerStrategyGenerateMaze
+2019.06.16 22:44:35.384 INFO  Server.Server - Server is waiting for clients...
+2019.06.16 22:44:35.878 INFO  Server.Server - Finished handle client: Socket[addr=/10.0.0.1,port=52475,localport=5400]
+2019.06.16 22:44:35.879 INFO  Server.Server - Handling client with socket: Socket[addr=/10.0.0.1,port=52475,localport=5400]
+2019.06.16 22:44:35.888 ERROR Server.Server - IOException
+java.net.SocketException: Socket is closed
+	at java.net.Socket.getOutputStream(Socket.java:943) ~[?:1.8.0_202]
+	at Server.Server.ManageClient(Server.java:88) ~[PartB%20-%20Project%20%e2%80%93%20B.jar:?]
+	at Server.Server.lambda$runServer$1(Server.java:67) ~[PartB%20-%20Project%20%e2%80%93%20B.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_202]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_202]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_202]
+2019.06.16 22:44:36.880 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:44:37.882 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:44:38.883 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:44:39.884 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:44:40.884 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:44:41.885 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:44:42.885 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:44:43.886 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:44:44.775 INFO  Server.Server - Stopping server..
+2019.06.16 22:44:44.887 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:45:08.436 INFO  Server.Server - Server starter at ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5400]!
+2019.06.16 22:45:08.439 INFO  Server.Server - Server's Strategy: ServerStrategyGenerateMaze
+2019.06.16 22:45:08.440 INFO  Server.Server - Server is waiting for clients...
+2019.06.16 22:45:08.936 INFO  Server.Server - Finished handle client: Socket[addr=/10.0.0.1,port=52482,localport=5400]
+2019.06.16 22:45:08.936 INFO  Server.Server - Handling client with socket: Socket[addr=/10.0.0.1,port=52482,localport=5400]
+2019.06.16 22:45:08.967 ERROR Server.Server - IOException
+java.net.SocketException: Socket is closed
+	at java.net.Socket.getOutputStream(Unknown Source) ~[?:1.8.0_202]
+	at Server.Server.ManageClient(Server.java:88) ~[PandaMaze.jar:?]
+	at Server.Server.lambda$runServer$1(Server.java:67) ~[PandaMaze.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_202]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_202]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_202]
+2019.06.16 22:45:09.937 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:45:10.938 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:45:11.939 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:45:12.941 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:45:13.941 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:45:14.943 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:45:15.944 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:45:16.945 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:45:17.945 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:45:18.947 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:45:19.949 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:45:20.951 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:45:21.951 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:45:22.953 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:45:23.953 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:45:24.954 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:45:25.955 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:45:26.956 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:45:27.387 INFO  Server.Server - Server starter at ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5401]!
+2019.06.16 22:45:27.388 INFO  Server.Server - Server's Strategy: ServerStrategySolveSearchProblem
+2019.06.16 22:45:27.388 INFO  Server.Server - Server is waiting for clients...
+2019.06.16 22:45:27.389 INFO  Server.Server - Finished handle client: Socket[addr=/10.0.0.1,port=52486,localport=5401]
+2019.06.16 22:45:27.389 INFO  Server.Server - Handling client with socket: Socket[addr=/10.0.0.1,port=52486,localport=5401]
+2019.06.16 22:45:27.402 ERROR Server.Server - IOException
+java.net.SocketException: Socket is closed
+	at java.net.Socket.getOutputStream(Unknown Source) ~[?:1.8.0_202]
+	at Server.Server.ManageClient(Server.java:88) ~[PandaMaze.jar:?]
+	at Server.Server.lambda$runServer$1(Server.java:67) ~[PandaMaze.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_202]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_202]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_202]
+2019.06.16 22:45:27.956 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:45:28.389 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:45:28.958 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:45:29.390 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:45:29.959 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:45:30.392 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:45:30.960 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:45:31.394 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:45:31.961 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:45:32.394 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:45:32.961 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:45:33.396 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:45:33.961 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:45:34.397 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:45:34.963 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:45:35.399 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:45:35.964 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:45:36.401 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:45:36.964 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:45:37.402 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:45:37.965 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:45:38.403 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:45:38.967 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:45:39.404 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:45:39.645 INFO  Server.Server - Stopping server..
+2019.06.16 22:45:39.646 INFO  Server.Server - Stopping server..
+2019.06.16 22:45:39.968 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:45:40.405 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:46:37.920 INFO  Server.Server - Server starter at ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5400]!
+2019.06.16 22:46:37.924 INFO  Server.Server - Server's Strategy: ServerStrategyGenerateMaze
+2019.06.16 22:46:37.924 INFO  Server.Server - Server is waiting for clients...
+2019.06.16 22:46:38.421 INFO  Server.Server - Finished handle client: Socket[addr=/10.0.0.1,port=52536,localport=5400]
+2019.06.16 22:46:38.421 INFO  Server.Server - Handling client with socket: Socket[addr=/10.0.0.1,port=52536,localport=5400]
+2019.06.16 22:46:38.462 ERROR Server.Server - IOException
+java.net.SocketException: Socket is closed
+	at java.net.Socket.getOutputStream(Unknown Source) ~[?:1.8.0_202]
+	at Server.Server.ManageClient(Server.java:88) ~[PandaMaze.jar:?]
+	at Server.Server.lambda$runServer$1(Server.java:67) ~[PandaMaze.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_202]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_202]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_202]
+2019.06.16 22:46:39.423 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:46:40.424 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:46:41.426 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:46:42.427 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:46:43.429 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:46:44.430 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:46:45.432 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:46:46.434 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:46:47.436 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:46:47.577 INFO  Server.Server - Server starter at ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5401]!
+2019.06.16 22:46:47.577 INFO  Server.Server - Server's Strategy: ServerStrategySolveSearchProblem
+2019.06.16 22:46:47.578 INFO  Server.Server - Server is waiting for clients...
+2019.06.16 22:46:47.578 INFO  Server.Server - Finished handle client: Socket[addr=/10.0.0.1,port=52537,localport=5401]
+2019.06.16 22:46:47.578 INFO  Server.Server - Handling client with socket: Socket[addr=/10.0.0.1,port=52537,localport=5401]
+2019.06.16 22:46:47.590 ERROR Server.Server - IOException
+java.net.SocketException: Socket is closed
+	at java.net.Socket.getOutputStream(Unknown Source) ~[?:1.8.0_202]
+	at Server.Server.ManageClient(Server.java:88) ~[PandaMaze.jar:?]
+	at Server.Server.lambda$runServer$1(Server.java:67) ~[PandaMaze.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_202]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_202]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_202]
+2019.06.16 22:46:48.436 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:46:48.578 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:46:49.438 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:46:49.580 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:46:50.439 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:46:50.581 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:46:51.440 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:46:51.583 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:46:52.441 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:46:52.584 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:46:53.441 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:46:53.585 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:46:54.442 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:46:54.587 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:46:55.444 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:46:55.588 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:46:56.445 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:46:56.588 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:46:57.446 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:46:57.590 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:46:58.448 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:46:58.592 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:46:59.449 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:46:59.593 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:47:00.450 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:47:00.594 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:47:01.452 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:47:01.594 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:47:02.452 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:47:02.596 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:47:03.452 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:47:03.598 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:47:04.453 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:47:04.600 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:47:05.454 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:47:05.601 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:47:06.456 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:47:06.603 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:47:07.457 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:47:07.604 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:47:08.459 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:47:08.605 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:47:09.461 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:47:09.605 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:47:10.463 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:47:10.607 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:47:11.464 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:47:11.608 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:47:12.465 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:47:12.610 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:47:13.466 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:47:13.612 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:47:14.468 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:47:14.613 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:47:15.470 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:47:15.615 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:47:16.471 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:47:16.616 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:47:17.471 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:47:17.618 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:47:18.472 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:47:18.619 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:47:19.474 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:47:19.620 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:47:20.474 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:47:20.622 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:47:21.475 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:47:21.623 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:47:22.476 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:47:22.623 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:47:23.477 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:47:23.624 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:47:24.479 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:47:24.626 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:47:25.480 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:47:25.626 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:47:26.481 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:47:26.626 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:47:27.482 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:47:27.627 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:47:28.484 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:47:28.629 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:47:29.485 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:47:29.629 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:47:30.486 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:47:30.631 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:47:31.488 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:47:31.632 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:47:32.490 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:47:32.633 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:47:33.491 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:47:33.635 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:47:34.493 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:47:34.636 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:47:35.494 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:47:35.638 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:47:36.496 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:47:36.639 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:47:37.497 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:47:37.641 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:47:38.499 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:47:38.642 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:47:39.500 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:47:39.643 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:47:40.502 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:47:40.644 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:47:41.503 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:47:41.645 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:47:42.503 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:47:42.646 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:47:43.505 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:47:43.648 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:47:44.507 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:47:44.649 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:47:45.510 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:47:45.649 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:47:46.592 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:47:46.650 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:47:47.593 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:47:47.650 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:47:48.595 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:47:48.651 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:47:49.596 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:47:49.652 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:47:50.597 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:47:50.653 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:47:51.599 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:47:51.655 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:47:52.600 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:47:52.656 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:47:53.600 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:47:53.656 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:47:54.600 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:47:54.657 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:47:55.602 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:47:55.658 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:47:56.604 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:47:56.659 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:47:57.605 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:47:57.661 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:47:58.606 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:47:58.661 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:47:59.606 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:47:59.662 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:48:00.608 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:48:00.662 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:48:01.609 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:48:01.664 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:48:02.611 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:48:02.666 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:48:03.611 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:48:03.666 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:48:04.612 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:48:04.667 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:48:05.614 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:48:05.667 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:48:06.615 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:48:06.668 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:48:07.616 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:48:07.670 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:48:08.617 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:48:08.670 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:48:09.618 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:48:09.671 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:48:10.618 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:48:10.672 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:48:11.619 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:48:11.673 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:48:12.619 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:48:12.673 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:48:13.620 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:48:13.674 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:48:14.620 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:48:14.676 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:48:15.621 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:48:15.676 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:48:16.621 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:48:16.676 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:48:17.622 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:48:17.677 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:48:18.622 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:48:18.678 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:48:19.622 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:48:19.678 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:48:20.623 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:48:20.678 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:48:21.623 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:48:21.679 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:48:22.624 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:48:22.679 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:48:23.624 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:48:23.679 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:48:24.624 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:48:24.680 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:48:25.625 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:48:25.680 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:48:26.625 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:48:26.681 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:48:27.626 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:48:27.682 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:48:28.626 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:48:28.682 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:48:29.627 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:48:29.683 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:48:30.627 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:48:30.683 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:48:31.628 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:48:31.683 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:48:32.629 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:48:32.683 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:48:33.629 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:48:33.683 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:48:34.631 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:48:34.685 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:48:35.631 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:48:35.686 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:48:36.632 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:48:36.686 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:48:37.632 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:48:37.686 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:48:38.633 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:48:38.687 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:48:39.634 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:48:39.688 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:48:40.634 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:48:40.689 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:48:41.635 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:48:41.689 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:48:42.636 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:48:42.691 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:48:43.637 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:48:43.691 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:48:44.639 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:48:44.693 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:48:45.640 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:48:45.694 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:48:46.641 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:48:46.695 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:48:47.643 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:48:47.696 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:48:48.644 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:48:48.696 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:48:49.644 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:48:49.698 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:48:50.646 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:48:50.699 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:48:51.646 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:48:51.700 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:48:52.648 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:48:52.701 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:48:53.648 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:48:53.701 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:48:54.648 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:48:54.701 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:48:55.648 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:48:55.701 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:48:56.649 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:48:56.702 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:48:57.649 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:48:57.702 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:48:58.650 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:48:58.703 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:48:59.650 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:48:59.704 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:49:00.651 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:49:00.704 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:49:01.653 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:49:01.705 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:49:02.653 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:49:02.706 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:49:03.653 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:49:03.706 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:49:04.653 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:49:04.706 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:49:05.653 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:49:05.707 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:49:06.654 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:49:06.707 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:49:07.654 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:49:07.707 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:49:08.655 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:49:08.708 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:49:09.656 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:49:09.709 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:49:10.657 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:49:10.709 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:49:11.658 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:49:11.710 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:49:12.658 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:49:12.712 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:49:13.659 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:49:13.712 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:49:14.660 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:49:14.712 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:49:15.660 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:49:15.713 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:49:16.661 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:49:16.713 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:49:17.661 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:49:17.713 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:49:18.663 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:49:18.714 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:49:19.664 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:49:19.714 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:49:20.664 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:49:20.714 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:49:21.665 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:49:21.715 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:49:22.666 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:49:22.716 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:49:23.666 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:49:23.716 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:49:24.666 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:49:24.717 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:49:25.667 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:49:25.718 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:49:26.668 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:49:26.719 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:49:27.669 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:49:27.719 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:49:28.669 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:49:28.720 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:49:29.671 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:49:29.721 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:49:30.672 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:49:30.721 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:49:31.672 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:49:31.722 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:49:32.672 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:49:32.722 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:49:33.673 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:49:33.723 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:49:34.673 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:49:34.725 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:49:35.673 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:49:35.725 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:49:36.674 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:49:36.725 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:49:37.674 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:49:37.725 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:49:38.675 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:49:38.726 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:49:39.676 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:49:39.727 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:49:40.677 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:49:40.727 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:49:41.678 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:49:41.728 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:49:42.678 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:49:42.728 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:49:43.678 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:49:43.729 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:49:44.679 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:49:44.729 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:49:45.679 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:49:45.729 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:49:46.679 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:49:46.730 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:49:47.680 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:49:47.731 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:49:48.682 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:49:48.731 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:49:49.683 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:49:49.732 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:49:50.684 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:49:50.733 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:49:51.684 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:49:51.733 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:49:52.685 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:49:52.734 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:49:53.686 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:49:53.735 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:49:54.735 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:49:54.774 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:49:55.736 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:49:55.775 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:49:56.736 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:49:56.776 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:49:57.736 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:49:57.777 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:49:58.737 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:49:58.778 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:49:59.737 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:49:59.778 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:50:00.737 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:50:00.778 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:50:01.737 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:50:01.778 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:50:02.738 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:50:02.779 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:50:03.738 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:50:03.779 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:50:04.739 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:50:04.780 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:50:05.739 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:50:05.781 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:50:06.739 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:50:06.781 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:50:07.740 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:50:07.782 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:50:08.740 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:50:08.783 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:50:09.740 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:50:09.783 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:50:10.741 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:50:10.784 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:50:11.741 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:50:11.785 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:50:12.741 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:50:12.785 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:50:13.742 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:50:13.786 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:50:14.742 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:50:14.786 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:50:15.743 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:50:15.787 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:50:16.743 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:50:16.788 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:50:17.568 INFO  Server.Server - Stopping server..
+2019.06.16 22:50:17.569 INFO  Server.Server - Stopping server..
+2019.06.16 22:50:17.743 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:50:17.788 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:50:51.487 INFO  Server.Server - Server starter at ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5400]!
+2019.06.16 22:50:51.490 INFO  Server.Server - Server's Strategy: ServerStrategyGenerateMaze
+2019.06.16 22:50:51.490 INFO  Server.Server - Server is waiting for clients...
+2019.06.16 22:50:51.986 INFO  Server.Server - Finished handle client: Socket[addr=/10.0.0.1,port=52607,localport=5400]
+2019.06.16 22:50:51.987 INFO  Server.Server - Handling client with socket: Socket[addr=/10.0.0.1,port=52607,localport=5400]
+2019.06.16 22:50:52.017 ERROR Server.Server - IOException
+java.net.SocketException: Socket is closed
+	at java.net.Socket.getOutputStream(Socket.java:943) ~[?:1.8.0_202]
+	at Server.Server.ManageClient(Server.java:88) ~[PartB%20-%20Project%20%e2%80%93%20B.jar:?]
+	at Server.Server.lambda$runServer$1(Server.java:67) ~[PartB%20-%20Project%20%e2%80%93%20B.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_202]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_202]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_202]
+2019.06.16 22:50:52.987 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:50:53.242 INFO  Server.Server - Stopping server..
+2019.06.16 22:50:53.244 INFO  Server.Server - Finished handle client: Socket[addr=/10.0.0.1,port=52611,localport=5400]
+2019.06.16 22:50:53.248 INFO  Server.Server - Handling client with socket: Socket[addr=/10.0.0.1,port=52611,localport=5400]
+2019.06.16 22:50:53.249 INFO  Server.Server - Server starter at ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5400]!
+2019.06.16 22:50:53.249 INFO  Server.Server - Server's Strategy: ServerStrategyGenerateMaze
+2019.06.16 22:50:53.250 INFO  Server.Server - Server is waiting for clients...
+2019.06.16 22:50:53.250 ERROR Server.Server - IOException
+java.net.SocketException: Socket is closed
+	at java.net.Socket.getOutputStream(Socket.java:943) ~[?:1.8.0_202]
+	at Server.Server.ManageClient(Server.java:88) ~[PartB%20-%20Project%20%e2%80%93%20B.jar:?]
+	at Server.Server.lambda$runServer$1(Server.java:67) ~[PartB%20-%20Project%20%e2%80%93%20B.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_202]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_202]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_202]
+2019.06.16 22:50:54.251 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:50:55.252 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:50:56.253 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:50:56.498 INFO  Server.Server - Server starter at ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5401]!
+2019.06.16 22:50:56.499 INFO  Server.Server - Server's Strategy: ServerStrategySolveSearchProblem
+2019.06.16 22:50:56.499 INFO  Server.Server - Server is waiting for clients...
+2019.06.16 22:50:56.499 INFO  Server.Server - Finished handle client: Socket[addr=/10.0.0.1,port=52612,localport=5401]
+2019.06.16 22:50:56.499 INFO  Server.Server - Handling client with socket: Socket[addr=/10.0.0.1,port=52612,localport=5401]
+2019.06.16 22:50:56.513 ERROR Server.Server - IOException
+java.net.SocketException: Socket is closed
+	at java.net.Socket.getOutputStream(Socket.java:943) ~[?:1.8.0_202]
+	at Server.Server.ManageClient(Server.java:88) ~[PartB%20-%20Project%20%e2%80%93%20B.jar:?]
+	at Server.Server.lambda$runServer$1(Server.java:67) ~[PartB%20-%20Project%20%e2%80%93%20B.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_202]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_202]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_202]
+2019.06.16 22:50:57.255 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:50:57.499 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:50:58.255 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:50:58.500 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:50:59.256 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:50:59.501 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:51:00.256 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:51:00.502 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:51:00.754 INFO  Server.Server - Stopping server..
+2019.06.16 22:51:01.257 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:51:01.502 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:51:02.257 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:51:02.385 INFO  Server.Server - Server starter at ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5401]!
+2019.06.16 22:51:02.385 INFO  Server.Server - Server's Strategy: ServerStrategySolveSearchProblem
+2019.06.16 22:51:02.385 INFO  Server.Server - Server is waiting for clients...
+2019.06.16 22:51:02.386 INFO  Server.Server - Finished handle client: Socket[addr=/10.0.0.1,port=52616,localport=5401]
+2019.06.16 22:51:02.386 INFO  Server.Server - Handling client with socket: Socket[addr=/10.0.0.1,port=52616,localport=5401]
+2019.06.16 22:51:02.394 ERROR Server.Server - IOException
+java.net.SocketException: Socket is closed
+	at java.net.Socket.getOutputStream(Socket.java:943) ~[?:1.8.0_202]
+	at Server.Server.ManageClient(Server.java:88) ~[PartB%20-%20Project%20%e2%80%93%20B.jar:?]
+	at Server.Server.lambda$runServer$1(Server.java:67) ~[PartB%20-%20Project%20%e2%80%93%20B.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_202]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_202]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_202]
+2019.06.16 22:51:03.258 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:51:03.387 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:51:04.258 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:51:04.389 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:51:05.259 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:51:05.390 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:51:06.260 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:51:06.391 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:51:06.953 INFO  Server.Server - Stopping server..
+2019.06.16 22:51:06.954 INFO  Server.Server - Finished handle client: Socket[addr=/10.0.0.1,port=52617,localport=5400]
+2019.06.16 22:51:06.954 ERROR Server.Server - IOException
+java.net.BindException: Address already in use: JVM_Bind
+	at java.net.DualStackPlainSocketImpl.bind0(Native Method) ~[?:1.8.0_202]
+	at java.net.DualStackPlainSocketImpl.socketBind(DualStackPlainSocketImpl.java:106) ~[?:1.8.0_202]
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387) ~[?:1.8.0_202]
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:190) ~[?:1.8.0_202]
+	at java.net.ServerSocket.bind(ServerSocket.java:375) ~[?:1.8.0_202]
+	at java.net.ServerSocket.<init>(ServerSocket.java:237) ~[?:1.8.0_202]
+	at java.net.ServerSocket.<init>(ServerSocket.java:128) ~[?:1.8.0_202]
+	at Server.Server.runServer(Server.java:59) ~[PartB%20-%20Project%20%e2%80%93%20B.jar:?]
+	at Server.Server.lambda$start$0(Server.java:41) ~[PartB%20-%20Project%20%e2%80%93%20B.jar:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_202]
+2019.06.16 22:51:06.955 INFO  Server.Server - Handling client with socket: Socket[addr=/10.0.0.1,port=52617,localport=5400]
+2019.06.16 22:51:06.956 ERROR Server.Server - IOException
+java.net.SocketException: Socket is closed
+	at java.net.Socket.getOutputStream(Socket.java:943) ~[?:1.8.0_202]
+	at Server.Server.ManageClient(Server.java:88) ~[PartB%20-%20Project%20%e2%80%93%20B.jar:?]
+	at Server.Server.lambda$runServer$1(Server.java:67) ~[PartB%20-%20Project%20%e2%80%93%20B.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_202]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_202]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_202]
+2019.06.16 22:51:07.393 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:51:08.394 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:51:09.394 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:51:10.394 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:51:11.395 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:51:12.395 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:51:13.396 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:51:14.397 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:51:15.398 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:51:16.399 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:51:16.637 INFO  Server.Server - Stopping server..
+2019.06.16 22:51:16.638 INFO  Server.Server - Server starter at ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5400]!
+2019.06.16 22:51:16.638 INFO  Server.Server - Server's Strategy: ServerStrategyGenerateMaze
+2019.06.16 22:51:16.638 INFO  Server.Server - Server is waiting for clients...
+2019.06.16 22:51:16.639 INFO  Server.Server - Finished handle client: Socket[addr=/10.0.0.1,port=52621,localport=5400]
+2019.06.16 22:51:16.639 INFO  Server.Server - Handling client with socket: Socket[addr=/10.0.0.1,port=52621,localport=5400]
+2019.06.16 22:51:16.640 ERROR Server.Server - IOException
+java.net.SocketException: Socket is closed
+	at java.net.Socket.getOutputStream(Socket.java:943) ~[?:1.8.0_202]
+	at Server.Server.ManageClient(Server.java:88) ~[PartB%20-%20Project%20%e2%80%93%20B.jar:?]
+	at Server.Server.lambda$runServer$1(Server.java:67) ~[PartB%20-%20Project%20%e2%80%93%20B.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_202]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_202]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_202]
+2019.06.16 22:51:17.400 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:51:17.640 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:51:18.401 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:51:18.640 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:51:19.401 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:51:19.641 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:51:20.402 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:51:20.641 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:51:21.402 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:51:21.616 INFO  Server.Server - Stopping server..
+2019.06.16 22:51:21.617 ERROR Server.Server - IOException
+java.net.BindException: Address already in use: JVM_Bind
+	at java.net.DualStackPlainSocketImpl.bind0(Native Method) ~[?:1.8.0_202]
+	at java.net.DualStackPlainSocketImpl.socketBind(DualStackPlainSocketImpl.java:106) ~[?:1.8.0_202]
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387) ~[?:1.8.0_202]
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:190) ~[?:1.8.0_202]
+	at java.net.ServerSocket.bind(ServerSocket.java:375) ~[?:1.8.0_202]
+	at java.net.ServerSocket.<init>(ServerSocket.java:237) ~[?:1.8.0_202]
+	at java.net.ServerSocket.<init>(ServerSocket.java:128) ~[?:1.8.0_202]
+	at Server.Server.runServer(Server.java:59) ~[PartB%20-%20Project%20%e2%80%93%20B.jar:?]
+	at Server.Server.lambda$start$0(Server.java:41) ~[PartB%20-%20Project%20%e2%80%93%20B.jar:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_202]
+2019.06.16 22:51:21.617 INFO  Server.Server - Finished handle client: Socket[addr=/10.0.0.1,port=52623,localport=5400]
+2019.06.16 22:51:21.618 INFO  Server.Server - Handling client with socket: Socket[addr=/10.0.0.1,port=52623,localport=5400]
+2019.06.16 22:51:21.619 ERROR Server.Server - IOException
+java.net.SocketException: Socket is closed
+	at java.net.Socket.getOutputStream(Socket.java:943) ~[?:1.8.0_202]
+	at Server.Server.ManageClient(Server.java:88) ~[PartB%20-%20Project%20%e2%80%93%20B.jar:?]
+	at Server.Server.lambda$runServer$1(Server.java:67) ~[PartB%20-%20Project%20%e2%80%93%20B.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_202]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_202]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_202]
+2019.06.16 22:51:22.402 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:51:23.402 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:51:24.403 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:51:25.404 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:51:26.406 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:51:26.639 INFO  Server.Server - Stopping server..
+2019.06.16 22:51:26.641 INFO  Server.Server - Server starter at ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5400]!
+2019.06.16 22:51:26.641 INFO  Server.Server - Server's Strategy: ServerStrategyGenerateMaze
+2019.06.16 22:51:26.641 INFO  Server.Server - Server is waiting for clients...
+2019.06.16 22:51:27.141 INFO  Server.Server - Finished handle client: Socket[addr=/10.0.0.1,port=52631,localport=5400]
+2019.06.16 22:51:27.142 INFO  Server.Server - Handling client with socket: Socket[addr=/10.0.0.1,port=52631,localport=5400]
+2019.06.16 22:51:27.147 ERROR Server.Server - IOException
+java.net.SocketException: Socket is closed
+	at java.net.Socket.getOutputStream(Socket.java:943) ~[?:1.8.0_202]
+	at Server.Server.ManageClient(Server.java:88) ~[PartB%20-%20Project%20%e2%80%93%20B.jar:?]
+	at Server.Server.lambda$runServer$1(Server.java:67) ~[PartB%20-%20Project%20%e2%80%93%20B.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_202]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_202]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_202]
+2019.06.16 22:51:27.406 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:51:28.142 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:51:28.407 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:51:29.143 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:51:29.408 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:51:30.143 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:51:30.408 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:51:31.143 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:51:31.408 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:51:32.144 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:51:32.409 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:51:33.144 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:51:33.410 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:51:34.144 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:51:34.410 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:51:35.145 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:51:35.411 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:51:36.145 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:51:36.411 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:51:37.146 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:51:37.412 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:51:38.147 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:51:38.413 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:51:39.147 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:51:39.413 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:51:40.147 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:51:40.313 INFO  Server.Server - Stopping server..
+2019.06.16 22:51:40.314 ERROR Server.Server - IOException
+java.net.BindException: Address already in use: JVM_Bind
+	at java.net.DualStackPlainSocketImpl.bind0(Native Method) ~[?:1.8.0_202]
+	at java.net.DualStackPlainSocketImpl.socketBind(DualStackPlainSocketImpl.java:106) ~[?:1.8.0_202]
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387) ~[?:1.8.0_202]
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:190) ~[?:1.8.0_202]
+	at java.net.ServerSocket.bind(ServerSocket.java:375) ~[?:1.8.0_202]
+	at java.net.ServerSocket.<init>(ServerSocket.java:237) ~[?:1.8.0_202]
+	at java.net.ServerSocket.<init>(ServerSocket.java:128) ~[?:1.8.0_202]
+	at Server.Server.runServer(Server.java:59) ~[PartB%20-%20Project%20%e2%80%93%20B.jar:?]
+	at Server.Server.lambda$start$0(Server.java:41) ~[PartB%20-%20Project%20%e2%80%93%20B.jar:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_202]
+2019.06.16 22:51:40.314 INFO  Server.Server - Finished handle client: Socket[addr=/10.0.0.1,port=52637,localport=5400]
+2019.06.16 22:51:40.314 INFO  Server.Server - Handling client with socket: Socket[addr=/10.0.0.1,port=52637,localport=5400]
+2019.06.16 22:51:40.318 ERROR Server.Server - IOException
+java.net.SocketException: Socket is closed
+	at java.net.Socket.getOutputStream(Socket.java:943) ~[?:1.8.0_202]
+	at Server.Server.ManageClient(Server.java:88) ~[PartB%20-%20Project%20%e2%80%93%20B.jar:?]
+	at Server.Server.lambda$runServer$1(Server.java:67) ~[PartB%20-%20Project%20%e2%80%93%20B.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_202]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_202]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_202]
+2019.06.16 22:51:40.415 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:51:41.415 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:51:42.415 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:51:43.416 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:51:44.416 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:51:45.416 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:51:46.417 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:51:47.417 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:51:48.418 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:51:49.419 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:51:50.419 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:51:51.419 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:51:52.419 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:51:53.420 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:51:54.420 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:51:55.421 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:51:56.421 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:51:57.421 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:51:58.421 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:51:59.422 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:52:00.423 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:52:01.424 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:52:02.425 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:52:03.425 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:52:04.425 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:52:05.426 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:52:06.427 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:52:07.427 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:52:08.427 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:52:09.428 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:52:10.429 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:52:11.429 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:52:12.430 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:52:13.430 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:52:14.430 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:52:15.430 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:52:16.431 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:52:17.431 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:52:18.432 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:52:19.432 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:52:20.433 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:52:21.462 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:52:21.502 INFO  Server.Server - Stopping server..
+2019.06.16 22:52:21.502 INFO  Server.Server - Stopping server..
+2019.06.16 22:52:22.462 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:54:01.740 INFO  Server.Server - Server starter at ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5400]!
+2019.06.16 22:54:01.743 INFO  Server.Server - Server's Strategy: ServerStrategyGenerateMaze
+2019.06.16 22:54:01.743 INFO  Server.Server - Server is waiting for clients...
+2019.06.16 22:54:02.241 INFO  Server.Server - Finished handle client: Socket[addr=/10.0.0.1,port=52745,localport=5400]
+2019.06.16 22:54:02.243 INFO  Server.Server - Handling client with socket: Socket[addr=/10.0.0.1,port=52745,localport=5400]
+2019.06.16 22:54:02.266 ERROR Server.Server - IOException
+java.net.SocketException: Socket is closed
+	at java.net.Socket.getOutputStream(Socket.java:943) ~[?:1.8.0_202]
+	at Server.Server.ManageClient(Server.java:88) ~[PartB%20-%20Project%20%e2%80%93%20B.jar:?]
+	at Server.Server.lambda$runServer$1(Server.java:67) ~[PartB%20-%20Project%20%e2%80%93%20B.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_202]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_202]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_202]
+2019.06.16 22:54:03.242 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:54:04.244 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:54:05.246 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:54:06.247 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:54:07.248 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:54:08.249 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:54:09.250 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:54:10.251 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:54:10.543 INFO  Server.Server - Server starter at ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5401]!
+2019.06.16 22:54:10.543 INFO  Server.Server - Server's Strategy: ServerStrategySolveSearchProblem
+2019.06.16 22:54:10.543 INFO  Server.Server - Server is waiting for clients...
+2019.06.16 22:54:10.543 INFO  Server.Server - Finished handle client: Socket[addr=/10.0.0.1,port=52747,localport=5401]
+2019.06.16 22:54:10.544 INFO  Server.Server - Handling client with socket: Socket[addr=/10.0.0.1,port=52747,localport=5401]
+2019.06.16 22:54:10.559 ERROR Server.Server - IOException
+java.net.SocketException: Socket is closed
+	at java.net.Socket.getOutputStream(Socket.java:943) ~[?:1.8.0_202]
+	at Server.Server.ManageClient(Server.java:88) ~[PartB%20-%20Project%20%e2%80%93%20B.jar:?]
+	at Server.Server.lambda$runServer$1(Server.java:67) ~[PartB%20-%20Project%20%e2%80%93%20B.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_202]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_202]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_202]
+2019.06.16 22:54:11.252 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:54:11.544 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:54:12.253 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:54:12.545 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:54:13.255 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:54:13.355 INFO  Server.Server - Stopping server..
+2019.06.16 22:54:13.356 INFO  Server.Server - Finished handle client: Socket[addr=/10.0.0.1,port=52753,localport=5400]
+2019.06.16 22:54:13.356 ERROR Server.Server - IOException
+java.net.BindException: Address already in use: JVM_Bind
+	at java.net.DualStackPlainSocketImpl.bind0(Native Method) ~[?:1.8.0_202]
+	at java.net.DualStackPlainSocketImpl.socketBind(DualStackPlainSocketImpl.java:106) ~[?:1.8.0_202]
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387) ~[?:1.8.0_202]
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:190) ~[?:1.8.0_202]
+	at java.net.ServerSocket.bind(ServerSocket.java:375) ~[?:1.8.0_202]
+	at java.net.ServerSocket.<init>(ServerSocket.java:237) ~[?:1.8.0_202]
+	at java.net.ServerSocket.<init>(ServerSocket.java:128) ~[?:1.8.0_202]
+	at Server.Server.runServer(Server.java:59) ~[PartB%20-%20Project%20%e2%80%93%20B.jar:?]
+	at Server.Server.lambda$start$0(Server.java:41) ~[PartB%20-%20Project%20%e2%80%93%20B.jar:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_202]
+2019.06.16 22:54:13.356 INFO  Server.Server - Handling client with socket: Socket[addr=/10.0.0.1,port=52753,localport=5400]
+2019.06.16 22:54:13.358 ERROR Server.Server - IOException
+java.net.SocketException: Socket is closed
+	at java.net.Socket.getOutputStream(Socket.java:943) ~[?:1.8.0_202]
+	at Server.Server.ManageClient(Server.java:88) ~[PartB%20-%20Project%20%e2%80%93%20B.jar:?]
+	at Server.Server.lambda$runServer$1(Server.java:67) ~[PartB%20-%20Project%20%e2%80%93%20B.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_202]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_202]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_202]
+2019.06.16 22:54:13.547 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:54:14.547 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:54:15.548 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:54:16.548 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:54:17.550 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:54:18.550 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:54:19.551 DEBUG Server.Server - Socket Timeout - No clients pending!
+2019.06.16 22:54:19.848 INFO  Server.Server - Stopping server..
+2019.06.16 22:54:19.848 INFO  Server.Server - Stopping server..
+2019.06.16 22:54:20.551 DEBUG Server.Server - Socket Timeout - No clients pending!

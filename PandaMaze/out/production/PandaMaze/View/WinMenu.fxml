@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="750.0" prefWidth="1150.0" stylesheets="@/WinMenu.css" xmlns="http://javafx.com/javafx/8.0.202" xmlns:fx="http://javafx.com/fxml/1" fx:controller="View.MainScreenController">
+   <children>
+      <Button layoutX="793.0" layoutY="567.0" mnemonicParsing="false" onAction="#pushedPlayGame" prefHeight="24.0" prefWidth="134.0" text="Find More Food!" />
+   </children>
+</AnchorPane>
