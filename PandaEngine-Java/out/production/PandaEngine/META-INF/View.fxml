@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox prefHeight="250.0" prefWidth="707.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ViewController">
+    <children>
+        <MenuBar style="-fx-background-color: white;" VBox.vgrow="NEVER">
+            <menus>
+                <Menu mnemonicParsing="false" text="File">
+                    <items>
+                        <MenuItem mnemonicParsing="false" text="New" />
+                        <MenuItem mnemonicParsing="false" text="Open…" />
+                        <Menu mnemonicParsing="false" text="Open Recent" />
+                        <SeparatorMenuItem mnemonicParsing="false" />
+                        <MenuItem mnemonicParsing="false" text="Close" />
+                        <MenuItem mnemonicParsing="false" text="Save" />
+                        <MenuItem mnemonicParsing="false" text="Save As…" />
+                        <MenuItem mnemonicParsing="false" text="Revert" />
+                        <SeparatorMenuItem mnemonicParsing="false" />
+                        <MenuItem mnemonicParsing="false" text="Preferences…" />
+                        <SeparatorMenuItem mnemonicParsing="false" />
+                        <MenuItem mnemonicParsing="false" text="Quit" />
+                    </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Edit">
+                    <items>
+                        <MenuItem mnemonicParsing="false" text="Undo" />
+                        <MenuItem mnemonicParsing="false" text="Redo" />
+                        <SeparatorMenuItem mnemonicParsing="false" />
+                        <MenuItem mnemonicParsing="false" text="Cut" />
+                        <MenuItem mnemonicParsing="false" text="Copy" />
+                        <MenuItem mnemonicParsing="false" text="Paste" />
+                        <MenuItem mnemonicParsing="false" text="Delete" />
+                        <SeparatorMenuItem mnemonicParsing="false" />
+                        <MenuItem mnemonicParsing="false" text="Select All" />
+                        <MenuItem mnemonicParsing="false" text="Unselect All" />
+                    </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Help">
+                    <items>
+                        <MenuItem mnemonicParsing="false" text="About MyHelloApp" />
+                    </items>
+                </Menu>
+            </menus>
+        </MenuBar>
+        <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="222.0" prefWidth="453.0" style="-fx-background-color: black;" VBox.vgrow="ALWAYS">
+         <children>
+            <Button layoutX="35.0" layoutY="35.0" mnemonicParsing="false" onAction="#setCorpusPath" style="-fx-background-color: white;" text="Set Path" />
+            <Button layoutX="35.0" layoutY="89.0" mnemonicParsing="false" onAction="#setPostingFilePath" style="-fx-background-color: white;" text="Set Path" />
+            <Label fx:id="CorpusLabel" layoutX="122.0" layoutY="39.0" text="Set path to the Corpus databse" textFill="WHITE" />
+            <Label fx:id="PostingLabel" layoutX="122.0" layoutY="93.0" text="Set path to Posting folder" textFill="WHITE" />
+             <Button layoutX="24.0" layoutY="173.0" mnemonicParsing="false" onAction="#selectStart" style="-fx-background-color: white;" text="Start" />
+             <Button layoutX="87.0" layoutY="173.0" mnemonicParsing="false" onAction="#dictionaryDisplay" style="-fx-background-color: white;" text="Dictionary" />
+             <Button layoutX="183.0" layoutY="173.0" mnemonicParsing="false" onAction="#loadPosting" style="-fx-background-color: white;" text="Load" />
+             <Button layoutX="262.0" layoutY="173.0" mnemonicParsing="false" onAction="#deletePosting" style="-fx-background-color: white;" text="Delete" />
+            <CheckBox layoutX="108.0" layoutY="132.0" mnemonicParsing="false" onAction="#ToggleStemming" text="Use Stemming" textFill="WHITE" />
+            <TextField fx:id="QueryField" layoutX="446.0" layoutY="48.0" prefHeight="25.0" prefWidth="244.0" />
+            <Button layoutX="470.0" layoutY="89.0" mnemonicParsing="false" onAction="#SearchQueryField" prefHeight="25.0" prefWidth="120.0" style="-fx-background-color: white;" text="Search by text field" />
+            <Button layoutX="375.0" layoutY="128.0" mnemonicParsing="false" onAction="#setQueryFilePath" prefHeight="25.0" prefWidth="70.0" style="-fx-background-color: white;" text="Set Path" />
+            <Separator layoutX="352.0" orientation="VERTICAL" prefHeight="225.0" prefWidth="5.0" />
+            <Label layoutX="119.0" layoutY="2.0" prefHeight="25.0" prefWidth="143.0" text="Corpus Manager" textFill="WHITE">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="475.0" layoutY="-1.0" prefHeight="32.0" prefWidth="129.0" text="Query Manager" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="QueryLabel" layoutX="461.0" layoutY="132.0" prefHeight="17.0" prefWidth="173.0" text="Set path to query text file" textFill="WHITE" />
+            <Button layoutX="473.0" layoutY="173.0" mnemonicParsing="false" onAction="#SearchQueryFile" prefHeight="25.0" prefWidth="114.0" style="-fx-background-color: white;" text="Search by text file" />
+            <TextField fx:id="QueryIDField" layoutX="371.0" layoutY="48.0" prefHeight="25.0" prefWidth="70.0" />
+            <Label layoutX="383.0" layoutY="31.0" text="Query ID" textFill="WHITE" />
+            <Label layoutX="552.0" layoutY="31.0" prefHeight="17.0" prefWidth="33.0" text="Query" textFill="WHITE" />
+         </children>
+        </AnchorPane>
+    </children>
+</VBox>

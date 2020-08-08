@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="PandaEngine:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/PandaEngine_jar</output-path>
+    <root id="archive" name="PandaEngine.jar">
+      <element id="module-output" name="PandaEngine" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/jars/jsoup-1.12.1.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
