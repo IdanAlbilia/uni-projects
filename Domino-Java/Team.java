@@ -1,6 +1,5 @@
 /**
  * This class represnts a Team of players in Domino that have a name and an array of players.
- * @author Itai Dagan 
  */
 public class Team {
 	private Player [] players;
