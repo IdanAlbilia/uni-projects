@@ -1,6 +1,5 @@
 /**
  * This class represents a Tile of domino that have right and left side with values between 0 to 6 including.
- * @author Itai Dagan 
  */
 public class Tile {
 	/**
