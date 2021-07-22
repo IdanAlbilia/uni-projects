@@ -1,6 +1,5 @@
 /**
  * This class represents a Game Manager that have 2 teams and he manages the whole game, deal Tiles to players and plays.
- * @author Itai Dagan
  */
 public class GameManager {
 	/**
@@ -91,7 +90,7 @@ public class GameManager {
 		if(score1==0&&score2==0)
 		{
 			//if both of them have 0 there is draw even if one team doesnt have tiles and the other have <0,0> tile.
-			str = str + "Draw! – the house wins\n";
+			str = str + "Draw! â€“ the house wins\n";
 		}
 		else if(score1 < score2 || !this.team1.hasMoreTiles())
 		{
@@ -103,7 +102,7 @@ public class GameManager {
 		}
 		else
 		{
-			str = str + "Draw! – the house wins\n";
+			str = str + "Draw! â€“ the house wins\n";
 		}
 		//deep copy of the teams after the game.
 		this.team1 = new Team(team1);
