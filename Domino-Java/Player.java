@@ -1,6 +1,5 @@
 /**
  * This class represnts a Player that have a name and an array of tiles that he have.
- * @author Itai Dagan
  */
 public class Player {
 	private String name;
