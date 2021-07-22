@@ -1,6 +1,5 @@
 /**
  * This class represnts a Game board for domino that contains an array of Tiles and the maximum size for the array.
- * @author Itai Dagan
  */
 public class Board {
 	/**
